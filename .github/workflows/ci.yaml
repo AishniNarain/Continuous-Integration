@@ -1,8 +1,8 @@
 name: CI
 
 on:
-  push:
-  pull-request:
+  push
+  pull-request
 
 jobs:
   run-tests:
