@@ -3,8 +3,7 @@ from typing import Collection
 
 class Person:
     def __init__(
-        self, name:str, age:int, *, jobs: Collection[str] | None = None
-    ) -> None:
+        self, name:str, age:int, *, jobs: Collection[str]):
         self.name = name
         self.age = age
         self.jobs = jobs or []
@@ -18,8 +17,8 @@ class Person:
         name = self.name.split(" ")[-1]
         return name if name != self.forename else None
     
-    def celebrate_birthday(self) -> None:
+    def celebrate_birthday(self):
         self.age += 1
         
-    def add_job(self, title:str) -> None:
+    def add_job(self, title:str):
         self.jobs.append(title)
