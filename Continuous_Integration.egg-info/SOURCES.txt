@@ -1,0 +1,10 @@
+README.md
+setup.py
+Continuous_Integration.egg-info/PKG-INFO
+Continuous_Integration.egg-info/SOURCES.txt
+Continuous_Integration.egg-info/dependency_links.txt
+Continuous_Integration.egg-info/requires.txt
+Continuous_Integration.egg-info/top_level.txt
+beings/__init__.py
+beings/person.py
+tests/test_person.py
